@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>81</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>E-mail du patient :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>181</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Texte :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_objet">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>132</y>
+     <width>531</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_texte">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>181</y>
+     <width>531</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>131</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Objet :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_adresse">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>81</y>
+     <width>531</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgba(119,181,254,0.7);
+border: 5px solid blue;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_envoyer">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>350</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #f7f7f7, stop: 0.4 #f0f0f0,
+                                 stop: 0.5 #e8e8e8, stop: 1.0 #dcdcdc);
+border-radius:20px;
+border-radius:15px;
+
+}
+
+
+
+QPushButton:hover{
+background:   qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #1b83fe, stop: 0.4 #4399fe,
+                                 stop: 0.5 #5da7fe, stop: 1.0 #77b5fe);
+color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Envoyer</string>
+   </property>
+  </widget>
+  <zorder>frame_12</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_25</zorder>
+  <zorder>lineEdit_objet</zorder>
+  <zorder>textEdit_texte</zorder>
+  <zorder>label_23</zorder>
+  <zorder>lineEdit_adresse</zorder>
+  <zorder>pushButton_envoyer</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
