@@ -306,7 +306,7 @@ public:
         pushButton_2->setGeometry(QRect(80, 270, 111, 31));
         formLayoutWidget_3 = new QWidget(frame_2);
         formLayoutWidget_3->setObjectName(QStringLiteral("formLayoutWidget_3"));
-        formLayoutWidget_3->setGeometry(QRect(10, 60, 241, 201));
+        formLayoutWidget_3->setGeometry(QRect(10, 60, 251, 240));
         formLayout_3 = new QFormLayout(formLayoutWidget_3);
         formLayout_3->setObjectName(QStringLiteral("formLayout_3"));
         formLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -423,7 +423,7 @@ public:
 
         verticalLayoutWidget_4 = new QWidget(frame_2);
         verticalLayoutWidget_4->setObjectName(QStringLiteral("verticalLayoutWidget_4"));
-        verticalLayoutWidget_4->setGeometry(QRect(30, 10, 201, 44));
+        verticalLayoutWidget_4->setGeometry(QRect(30, 10, 233, 53));
         verticalLayout_4 = new QVBoxLayout(verticalLayoutWidget_4);
         verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -579,7 +579,7 @@ public:
 
         verticalLayoutWidget_3 = new QWidget(tab_3);
         verticalLayoutWidget_3->setObjectName(QStringLiteral("verticalLayoutWidget_3"));
-        verticalLayoutWidget_3->setGeometry(QRect(630, 10, 241, 71));
+        verticalLayoutWidget_3->setGeometry(QRect(630, 10, 302, 71));
         verticalLayout_3 = new QVBoxLayout(verticalLayoutWidget_3);
         verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -806,7 +806,7 @@ public:
         frame_11->setFrameShadow(QFrame::Raised);
         verticalLayoutWidget_5 = new QWidget(frame_11);
         verticalLayoutWidget_5->setObjectName(QStringLiteral("verticalLayoutWidget_5"));
-        verticalLayoutWidget_5->setGeometry(QRect(10, 10, 171, 71));
+        verticalLayoutWidget_5->setGeometry(QRect(10, 10, 234, 71));
         verticalLayout_5 = new QVBoxLayout(verticalLayoutWidget_5);
         verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
         verticalLayout_5->setContentsMargins(0, 0, 0, 0);
@@ -906,7 +906,7 @@ public:
         pushButton_7->setGeometry(QRect(80, 280, 111, 31));
         verticalLayoutWidget_7 = new QWidget(frame_7);
         verticalLayoutWidget_7->setObjectName(QStringLiteral("verticalLayoutWidget_7"));
-        verticalLayoutWidget_7->setGeometry(QRect(30, 10, 204, 44));
+        verticalLayoutWidget_7->setGeometry(QRect(30, 10, 244, 53));
         verticalLayout_7 = new QVBoxLayout(verticalLayoutWidget_7);
         verticalLayout_7->setObjectName(QStringLiteral("verticalLayout_7"));
         verticalLayout_7->setContentsMargins(0, 0, 0, 0);
@@ -995,7 +995,7 @@ public:
         frame_8->setFrameShadow(QFrame::Raised);
         verticalLayoutWidget_8 = new QWidget(frame_8);
         verticalLayoutWidget_8->setObjectName(QStringLiteral("verticalLayoutWidget_8"));
-        verticalLayoutWidget_8->setGeometry(QRect(10, 10, 241, 71));
+        verticalLayoutWidget_8->setGeometry(QRect(10, 10, 291, 71));
         verticalLayout_8 = new QVBoxLayout(verticalLayoutWidget_8);
         verticalLayout_8->setObjectName(QStringLiteral("verticalLayout_8"));
         verticalLayout_8->setContentsMargins(0, 0, 0, 0);
@@ -1139,7 +1139,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1001, 21));
+        menubar->setGeometry(QRect(0, 0, 1001, 26));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QStringLiteral("statusbar"));
@@ -1148,8 +1148,8 @@ public:
         retranslateUi(MainWindow);
 
         tabWidget->setCurrentIndex(0);
-        tabWidget_2->setCurrentIndex(0);
-        tabWidget_3->setCurrentIndex(0);
+        tabWidget_2->setCurrentIndex(1);
+        tabWidget_3->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
