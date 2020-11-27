@@ -70,12 +70,12 @@ void MainWindow::on_pushButton_clicked()
 
     {   ref();
         click();
-        QMessageBox::information(nullptr,("Ajout chantier"),("chantier ajouté"));}
+        QMessageBox::information(nullptr,("Ajout patient"),("patient ajouté"));}
 else
-     {QMessageBox::warning(nullptr,("Ajout chantier"),("chantier non ajouté"));}
+     {QMessageBox::warning(nullptr,("Ajout patient"),("patient non ajouté"));}
     }
 
-    else QMessageBox::warning(nullptr,("Ajout chantier"),("pas de données"));
+    else QMessageBox::warning(nullptr,("Ajout patient"),("pas de données"));
 }
 
 void MainWindow::on_tableView_activated(const QModelIndex &index)

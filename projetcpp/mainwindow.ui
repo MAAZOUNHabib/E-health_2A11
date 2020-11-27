@@ -98,7 +98,7 @@ color:white;
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -117,7 +117,7 @@ color:white;
        <string notr="true"/>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="tab_3">
        <attribute name="title">
@@ -179,8 +179,8 @@ color:white;
           <rect>
            <x>10</x>
            <y>60</y>
-           <width>241</width>
-           <height>201</height>
+           <width>251</width>
+           <height>240</height>
           </rect>
          </property>
          <layout class="QFormLayout" name="formLayout_3">
@@ -394,8 +394,8 @@ color:white;
           <rect>
            <x>30</x>
            <y>10</y>
-           <width>201</width>
-           <height>44</height>
+           <width>233</width>
+           <height>53</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -693,7 +693,7 @@ background: rgba(119,181,254,0.5);
          <rect>
           <x>630</x>
           <y>10</y>
-          <width>241</width>
+          <width>302</width>
           <height>71</height>
          </rect>
         </property>
@@ -1115,7 +1115,7 @@ border: 5px slolid;
        </rect>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="tab_5">
        <attribute name="title">
@@ -1154,7 +1154,7 @@ border: 5px slolid;
           <rect>
            <x>10</x>
            <y>10</y>
-           <width>171</width>
+           <width>234</width>
            <height>71</height>
           </rect>
          </property>
@@ -1355,8 +1355,8 @@ background: rgba(119,181,254,0.5);
           <rect>
            <x>30</x>
            <y>10</y>
-           <width>204</width>
-           <height>44</height>
+           <width>244</width>
+           <height>53</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -1625,7 +1625,7 @@ border: 5px slolid ;
           <rect>
            <x>10</x>
            <y>10</y>
-           <width>241</width>
+           <width>291</width>
            <height>71</height>
           </rect>
          </property>
@@ -2059,7 +2059,7 @@ border: 5px slolid ;
      <x>0</x>
      <y>0</y>
      <width>1001</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
